@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0155F4B919A6897800AA0CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155F4B519A6897800AA0CF0 /* AppDelegate.swift */; };
+		0155F4BA19A6897800AA0CF0 /* IBM_CreateEditItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155F4B619A6897800AA0CF0 /* IBM_CreateEditItemViewController.swift */; };
+		0155F4BB19A6897800AA0CF0 /* IBM_Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155F4B719A6897800AA0CF0 /* IBM_Item.swift */; };
+		0155F4BC19A6897800AA0CF0 /* IBM_ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155F4B819A6897800AA0CF0 /* IBM_ListViewController.swift */; };
+		0155F4BE19A6899500AA0CF0 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0155F4BD19A6899500AA0CF0 /* main.storyboard */; };
+		0155F4C019A689AD00AA0CF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0155F4BF19A689AD00AA0CF0 /* Images.xcassets */; };
+		0155F4C319A689BF00AA0CF0 /* bluelist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0155F4C119A689BF00AA0CF0 /* bluelist.plist */; };
+		1810C4F31A105E820092E935 /* IBMBluemix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1810C4EC1A105E820092E935 /* IBMBluemix.framework */; };
+		1810C4F41A105E820092E935 /* IBMCloudCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1810C4ED1A105E820092E935 /* IBMCloudCode.framework */; };
+		1810C4F51A105E820092E935 /* IBMData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1810C4EE1A105E820092E935 /* IBMData.framework */; };
+		1810C4F61A105E820092E935 /* IBMFileSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1810C4EF1A105E820092E935 /* IBMFileSync.framework */; };
+		1810C4F71A105E820092E935 /* IBMLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1810C4F01A105E820092E935 /* IBMLocation.framework */; };
+		1810C4F81A105E820092E935 /* IBMPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1810C4F11A105E820092E935 /* IBMPush.framework */; };
+		1810C4F91A105E820092E935 /* PushResources.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 1810C4F21A105E820092E935 /* PushResources.bundle */; };
+		181835181A1419DE00FA4E8C /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181835171A1419DE00FA4E8C /* NotificationCenter.framework */; };
+		1818351D1A1419DE00FA4E8C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818351C1A1419DE00FA4E8C /* TodayViewController.swift */; };
+		1818351F1A1419DE00FA4E8C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1818351E1A1419DE00FA4E8C /* MainInterface.storyboard */; };
+		181835221A1419DE00FA4E8C /* BlueList-Todays-widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 181835151A1419DE00FA4E8C /* BlueList-Todays-widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		181835271A1419EC00FA4E8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0155F4BF19A689AD00AA0CF0 /* Images.xcassets */; };
+		181835281A141B4100FA4E8C /* IBMBluemix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1810C4EC1A105E820092E935 /* IBMBluemix.framework */; };
+		181835291A141B4100FA4E8C /* IBMCloudCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1810C4ED1A105E820092E935 /* IBMCloudCode.framework */; };
+		1818352A1A141B4100FA4E8C /* IBMData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1810C4EE1A105E820092E935 /* IBMData.framework */; };
+		1818352B1A141B4100FA4E8C /* IBMFileSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1810C4EF1A105E820092E935 /* IBMFileSync.framework */; };
+		1818352C1A141B4100FA4E8C /* IBMLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1810C4F01A105E820092E935 /* IBMLocation.framework */; };
+		1818352D1A141B4100FA4E8C /* IBMPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1810C4F11A105E820092E935 /* IBMPush.framework */; };
+		181835331A14204C00FA4E8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181835321A14204C00FA4E8C /* UIKit.framework */; };
+		181835341A14342100FA4E8C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF42BDE1995224C008C51A0 /* libsqlite3.dylib */; };
+		181835351A143AF500FA4E8C /* IBM_Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155F4B719A6897800AA0CF0 /* IBM_Item.swift */; };
+		181835371A1459E500FA4E8C /* IBM_Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181835361A1459E400FA4E8C /* IBM_Config.swift */; };
+		181835381A145ABB00FA4E8C /* IBM_Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181835361A1459E400FA4E8C /* IBM_Config.swift */; };
+		18EC8BFD1A15B7E30093EB26 /* bluelist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0155F4C119A689BF00AA0CF0 /* bluelist.plist */; };
+		5FF42BDF1995224C008C51A0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF42BDE1995224C008C51A0 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181835201A1419DE00FA4E8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF42BA819951D2F008C51A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181835141A1419DE00FA4E8C;
+			remoteInfo = "BlueList-Todays-widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		181835261A1419DE00FA4E8C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				181835221A1419DE00FA4E8C /* BlueList-Todays-widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0155F4B519A6897800AA0CF0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = BlueList/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		0155F4B619A6897800AA0CF0 /* IBM_CreateEditItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IBM_CreateEditItemViewController.swift; path = BlueList/IBM_CreateEditItemViewController.swift; sourceTree = SOURCE_ROOT; };
+		0155F4B719A6897800AA0CF0 /* IBM_Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IBM_Item.swift; path = BlueList/IBM_Item.swift; sourceTree = SOURCE_ROOT; };
+		0155F4B819A6897800AA0CF0 /* IBM_ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IBM_ListViewController.swift; path = BlueList/IBM_ListViewController.swift; sourceTree = SOURCE_ROOT; };
+		0155F4BD19A6899500AA0CF0 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = SOURCE_ROOT; };
+		0155F4BF19A689AD00AA0CF0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BlueList/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		0155F4C119A689BF00AA0CF0 /* bluelist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = bluelist.plist; path = BlueList/bluelist.plist; sourceTree = SOURCE_ROOT; };
+		0155F4CB19A68D3800AA0CF0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BlueList/Info.plist; sourceTree = SOURCE_ROOT; };
+		1810C4EC1A105E820092E935 /* IBMBluemix.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMBluemix.framework; path = "../../../../Downloads/ibm-bluemix-sdk-ios/IBMBluemix.framework"; sourceTree = "<group>"; };
+		1810C4ED1A105E820092E935 /* IBMCloudCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMCloudCode.framework; path = "../../../../Downloads/ibm-bluemix-sdk-ios/IBMCloudCode.framework"; sourceTree = "<group>"; };
+		1810C4EE1A105E820092E935 /* IBMData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMData.framework; path = "../../../../Downloads/ibm-bluemix-sdk-ios/IBMData.framework"; sourceTree = "<group>"; };
+		1810C4EF1A105E820092E935 /* IBMFileSync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMFileSync.framework; path = "../../../../Downloads/ibm-bluemix-sdk-ios/IBMFileSync.framework"; sourceTree = "<group>"; };
+		1810C4F01A105E820092E935 /* IBMLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMLocation.framework; path = "../../../../Downloads/ibm-bluemix-sdk-ios/IBMLocation.framework"; sourceTree = "<group>"; };
+		1810C4F11A105E820092E935 /* IBMPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMPush.framework; path = "../../../../Downloads/ibm-bluemix-sdk-ios/IBMPush.framework"; sourceTree = "<group>"; };
+		1810C4F21A105E820092E935 /* PushResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PushResources.bundle; path = "../../../../Downloads/ibm-bluemix-sdk-ios/PushResources.bundle"; sourceTree = "<group>"; };
+		181835151A1419DE00FA4E8C /* BlueList-Todays-widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BlueList-Todays-widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		181835171A1419DE00FA4E8C /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		1818351B1A1419DE00FA4E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1818351C1A1419DE00FA4E8C /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		1818351E1A1419DE00FA4E8C /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		181835321A14204C00FA4E8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		181835361A1459E400FA4E8C /* IBM_Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBM_Config.swift; sourceTree = SOURCE_ROOT; };
+		5FF42BB019951D2F008C51A0 /* bluelist-mobiledata-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bluelist-mobiledata-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF42BD219951E56008C51A0 /* bluelist-mobiledata-swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "bluelist-mobiledata-swift-Bridging-Header.h"; path = "BlueList/bluelist-mobiledata-swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		5FF42BDE1995224C008C51A0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181835121A1419DE00FA4E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181835341A14342100FA4E8C /* libsqlite3.dylib in Frameworks */,
+				181835331A14204C00FA4E8C /* UIKit.framework in Frameworks */,
+				181835181A1419DE00FA4E8C /* NotificationCenter.framework in Frameworks */,
+				181835281A141B4100FA4E8C /* IBMBluemix.framework in Frameworks */,
+				181835291A141B4100FA4E8C /* IBMCloudCode.framework in Frameworks */,
+				1818352A1A141B4100FA4E8C /* IBMData.framework in Frameworks */,
+				1818352B1A141B4100FA4E8C /* IBMFileSync.framework in Frameworks */,
+				1818352C1A141B4100FA4E8C /* IBMLocation.framework in Frameworks */,
+				1818352D1A141B4100FA4E8C /* IBMPush.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF42BAD19951D2F008C51A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF42BDF1995224C008C51A0 /* libsqlite3.dylib in Frameworks */,
+				1810C4F31A105E820092E935 /* IBMBluemix.framework in Frameworks */,
+				1810C4F41A105E820092E935 /* IBMCloudCode.framework in Frameworks */,
+				1810C4F51A105E820092E935 /* IBMData.framework in Frameworks */,
+				1810C4F61A105E820092E935 /* IBMFileSync.framework in Frameworks */,
+				1810C4F71A105E820092E935 /* IBMLocation.framework in Frameworks */,
+				1810C4F81A105E820092E935 /* IBMPush.framework in Frameworks */,
+				1810C4F91A105E820092E935 /* PushResources.bundle in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181835161A1419DE00FA4E8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				181835321A14204C00FA4E8C /* UIKit.framework */,
+				181835171A1419DE00FA4E8C /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		181835191A1419DE00FA4E8C /* BlueList-Todays-widget */ = {
+			isa = PBXGroup;
+			children = (
+				1818351C1A1419DE00FA4E8C /* TodayViewController.swift */,
+				1818351E1A1419DE00FA4E8C /* MainInterface.storyboard */,
+				1818351A1A1419DE00FA4E8C /* Supporting Files */,
+			);
+			path = "BlueList-Todays-widget";
+			sourceTree = "<group>";
+		};
+		1818351A1A1419DE00FA4E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1818351B1A1419DE00FA4E8C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FF42BA719951D2F008C51A0 = {
+			isa = PBXGroup;
+			children = (
+				1810C4EC1A105E820092E935 /* IBMBluemix.framework */,
+				1810C4ED1A105E820092E935 /* IBMCloudCode.framework */,
+				1810C4EE1A105E820092E935 /* IBMData.framework */,
+				1810C4EF1A105E820092E935 /* IBMFileSync.framework */,
+				1810C4F01A105E820092E935 /* IBMLocation.framework */,
+				1810C4F11A105E820092E935 /* IBMPush.framework */,
+				1810C4F21A105E820092E935 /* PushResources.bundle */,
+				5FF42BB219951D2F008C51A0 /* bluelist-mobiledata-swift */,
+				181835191A1419DE00FA4E8C /* BlueList-Todays-widget */,
+				181835161A1419DE00FA4E8C /* Frameworks */,
+				5FF42BB119951D2F008C51A0 /* Products */,
+				5FF42BDE1995224C008C51A0 /* libsqlite3.dylib */,
+			);
+			sourceTree = "<group>";
+		};
+		5FF42BB119951D2F008C51A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FF42BB019951D2F008C51A0 /* bluelist-mobiledata-swift.app */,
+				181835151A1419DE00FA4E8C /* BlueList-Todays-widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF42BB219951D2F008C51A0 /* bluelist-mobiledata-swift */ = {
+			isa = PBXGroup;
+			children = (
+				181835361A1459E400FA4E8C /* IBM_Config.swift */,
+				0155F4B519A6897800AA0CF0 /* AppDelegate.swift */,
+				0155F4B619A6897800AA0CF0 /* IBM_CreateEditItemViewController.swift */,
+				0155F4B719A6897800AA0CF0 /* IBM_Item.swift */,
+				0155F4B819A6897800AA0CF0 /* IBM_ListViewController.swift */,
+				0155F4BF19A689AD00AA0CF0 /* Images.xcassets */,
+				0155F4BD19A6899500AA0CF0 /* main.storyboard */,
+				5FF42BB319951D2F008C51A0 /* Supporting Files */,
+				5FF42BD219951E56008C51A0 /* bluelist-mobiledata-swift-Bridging-Header.h */,
+			);
+			path = "bluelist-mobiledata-swift";
+			sourceTree = "<group>";
+		};
+		5FF42BB319951D2F008C51A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0155F4CB19A68D3800AA0CF0 /* Info.plist */,
+				0155F4C119A689BF00AA0CF0 /* bluelist.plist */,
+			);
+			name = "Supporting Files";
+			path = "BlueList/Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181835141A1419DE00FA4E8C /* BlueList-Todays-widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181835231A1419DE00FA4E8C /* Build configuration list for PBXNativeTarget "BlueList-Todays-widget" */;
+			buildPhases = (
+				181835111A1419DE00FA4E8C /* Sources */,
+				181835121A1419DE00FA4E8C /* Frameworks */,
+				181835131A1419DE00FA4E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlueList-Todays-widget";
+			productName = "BlueList-Todays-widget";
+			productReference = 181835151A1419DE00FA4E8C /* BlueList-Todays-widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5FF42BAF19951D2F008C51A0 /* bluelist-mobiledata-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF42BCC19951D2F008C51A0 /* Build configuration list for PBXNativeTarget "bluelist-mobiledata-swift" */;
+			buildPhases = (
+				5FF42BAC19951D2F008C51A0 /* Sources */,
+				5FF42BAD19951D2F008C51A0 /* Frameworks */,
+				5FF42BAE19951D2F008C51A0 /* Resources */,
+				181835261A1419DE00FA4E8C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181835211A1419DE00FA4E8C /* PBXTargetDependency */,
+			);
+			name = "bluelist-mobiledata-swift";
+			productName = "bluelist-mobiledata-swift";
+			productReference = 5FF42BB019951D2F008C51A0 /* bluelist-mobiledata-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FF42BA819951D2F008C51A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = todd;
+				TargetAttributes = {
+					181835141A1419DE00FA4E8C = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 7G2PMCVCH6;
+					};
+					5FF42BAF19951D2F008C51A0 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 7G2PMCVCH6;
+					};
+				};
+			};
+			buildConfigurationList = 5FF42BAB19951D2F008C51A0 /* Build configuration list for PBXProject "bluelist-mobiledata-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FF42BA719951D2F008C51A0;
+			productRefGroup = 5FF42BB119951D2F008C51A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF42BAF19951D2F008C51A0 /* bluelist-mobiledata-swift */,
+				181835141A1419DE00FA4E8C /* BlueList-Todays-widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181835131A1419DE00FA4E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1818351F1A1419DE00FA4E8C /* MainInterface.storyboard in Resources */,
+				18EC8BFD1A15B7E30093EB26 /* bluelist.plist in Resources */,
+				181835271A1419EC00FA4E8C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF42BAE19951D2F008C51A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0155F4C019A689AD00AA0CF0 /* Images.xcassets in Resources */,
+				0155F4C319A689BF00AA0CF0 /* bluelist.plist in Resources */,
+				0155F4BE19A6899500AA0CF0 /* main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181835111A1419DE00FA4E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181835351A143AF500FA4E8C /* IBM_Item.swift in Sources */,
+				181835371A1459E500FA4E8C /* IBM_Config.swift in Sources */,
+				1818351D1A1419DE00FA4E8C /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF42BAC19951D2F008C51A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0155F4BB19A6897800AA0CF0 /* IBM_Item.swift in Sources */,
+				0155F4BC19A6897800AA0CF0 /* IBM_ListViewController.swift in Sources */,
+				0155F4BA19A6897800AA0CF0 /* IBM_CreateEditItemViewController.swift in Sources */,
+				0155F4B919A6897800AA0CF0 /* AppDelegate.swift in Sources */,
+				181835381A145ABB00FA4E8C /* IBM_Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181835211A1419DE00FA4E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181835141A1419DE00FA4E8C /* BlueList-Todays-widget */;
+			targetProxy = 181835201A1419DE00FA4E8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		181835241A1419DE00FA4E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jorgemendoza/Downloads/ibm-bluemix-sdk-ios",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlueList-Todays-widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueList/bluelist-mobiledata-swift-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		181835251A1419DE00FA4E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jorgemendoza/Downloads/ibm-bluemix-sdk-ios",
+				);
+				INFOPLIST_FILE = "BlueList-Todays-widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueList/bluelist-mobiledata-swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		5FF42BCA19951D2F008C51A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jorge Mendoza (9TU2928FND)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jorge Mendoza (9TU2928FND)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PROVISIONING_PROFILE = "d9e2ba00-f8b3-42be-8130-a0353bba3607";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FF42BCB19951D2F008C51A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jorge Mendoza (9TU2928FND)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jorge Mendoza (9TU2928FND)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				PROVISIONING_PROFILE = "d9e2ba00-f8b3-42be-8130-a0353bba3607";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FF42BCD19951D2F008C51A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jorge Mendoza (9TU2928FND)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jorgemendoza/Downloads/ibm-bluemix-sdk-ios",
+				);
+				INFOPLIST_FILE = BlueList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d9e2ba00-f8b3-42be-8130-a0353bba3607";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueList/bluelist-mobiledata-swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FF42BCE19951D2F008C51A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jorge Mendoza (9TU2928FND)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jorgemendoza/Downloads/ibm-bluemix-sdk-ios",
+				);
+				INFOPLIST_FILE = BlueList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d9e2ba00-f8b3-42be-8130-a0353bba3607";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueList/bluelist-mobiledata-swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181835231A1419DE00FA4E8C /* Build configuration list for PBXNativeTarget "BlueList-Todays-widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181835241A1419DE00FA4E8C /* Debug */,
+				181835251A1419DE00FA4E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF42BAB19951D2F008C51A0 /* Build configuration list for PBXProject "bluelist-mobiledata-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF42BCA19951D2F008C51A0 /* Debug */,
+				5FF42BCB19951D2F008C51A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF42BCC19951D2F008C51A0 /* Build configuration list for PBXNativeTarget "bluelist-mobiledata-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF42BCD19951D2F008C51A0 /* Debug */,
+				5FF42BCE19951D2F008C51A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FF42BA819951D2F008C51A0 /* Project object */;
+}

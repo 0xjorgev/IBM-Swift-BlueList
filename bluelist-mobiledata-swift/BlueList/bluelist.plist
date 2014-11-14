@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>applicationId</key>
+	<string>ab1231c2-0c66-47a3-b6f9-d0cd4c15023a</string>
+	<key>applicationSecret</key>
+	<string>d7efdc11a6780061cba8dbe5293e1bae5008e521</string>
+	<key>applicationRoute</key>
+	<string>http://topcoder-challange.mybluemix.net</string>
+</dict>
+</plist>
