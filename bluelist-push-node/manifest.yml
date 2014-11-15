@@ -1,8 +1,0 @@
-  host: topcoder-challange
-  disk: 128M
-  name: topcoder-challange
-  command: node app.js
-  path: .
-  domain: mybluemix.net
-  memory: 128M
-  instances: 1

@@ -1,38 +1,27 @@
-Sample: bluelist-mobiledata
+Topcoder Challenge: bluelist-mobiledata-iOS 8 Swift and Node.js
 ===
 
-The bluelist-mobiledata samples build upon the bluelist-base samples, a simple grocery list application.  In bluelist-mobiledata, the items persist to a mobile backend, using the Mobile Data service.
+This is an extension of the original BlueList project provided by IBM, this version of the project provides:
+
+- Interactive Push notifications added with IBM Push Services and IBM Cloudcode
+- Sorted items based on priority values
+- Today's Extension that shows the first 4 items of the sorted list
 
 These samples work with the Mobile Cloud, an application boilerplate that is available on [IBM Bluemix](https://www.ng.bluemix.net).  With this boilerplate, you can quickly incorporate pre-built, managed, and scalable cloud services into your mobile applications without relying on IT involvement. You can focus on building your mobile applications rather than the complexities of managing the back end infrastructure.
 
+This Repository also contains the Node.js App template to be configured in the IBM Bluemix dashboard
 
 Downloading the samples
 ---
-You can clone the samples from IBM DevOps Services with the following command:
+You can clone the (Original) samples from IBM DevOps Services with the following command:
 
     git clone https://hub.jazz.net/git/mobilecloud/bluelist-mobiledata
+    
+Or the extended version:
 
+    git clone https://github.com/jorgevmendoza/IBM-Swift-BlueList.git
 
-Running the Android sample (bluelist-mobiledata-android)
 ---
+Developed by Jorge Mendoza
+Tw: @Jorgevmendoza
 
-See the instructions in [Build an Android app using the Mobile Data cloud service](http://www.ibm.com/developerworks/library/mo-android-mobiledata-app/index.html) for more information about how to import this sample into your Android development environment and run the sample in a mobile emulator.
-
-Running this sample (bluelist-mobiledata-cordova)
----
-
-See the instructions in the bluelist-mobiledata-cordova/README.md file.
-
-Running the iOS sample (bluelist-mobiledata-iOS)
----
-See the instructions in the bluelist-mobiledata-iOS/README.md file.
-
-Running this sample (bluelist-mobiledata-mobileweb)
----
-
-See the instructions in the bluelist-mobiledata-mobileweb/README.md file.
-
-Running this sample (bluelist-mobiledata-web)
----
-
-See the instructions in the bluelist-mobiledata-web/README.md file.
